@@ -1,0 +1,53 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SinotMobile"
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf" x:Class="SinotMobile.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="445" Width="634" WindowStartupLocation="CenterScreen">
+    <Grid RenderTransformOrigin="0.502,0.5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="261*"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" HorizontalAlignment="Left" Height="57" VerticalAlignment="Top" Width="522" Background="#FFB3BBD8">
+            <TextBox x:Name="textBox_Copy" TextWrapping="Wrap" Text="4567" Margin="54,14,417,15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="414" VerticalAlignment="Top" Width="104" Background="#FF0117A0"/>
+
+        <Button x:Name="button" Content="SERVICIO" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Height="53" Background="#FF0F07AA" BorderBrush="#FF707070" Cursor="Hand" RenderTransformOrigin="0,1" Margin="0,57,0,0" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="button_Copy" Content="&#xA;PRUEBA&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Height="53" Background="#FF0F07AA" BorderBrush="#FF707070" Cursor="Hand" RenderTransformOrigin="0,1" Margin="0,110,0,0" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="button_Copy1" Content="DATOS &#xA;ADICIONALES" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Height="53" Background="#FF0F07AA" BorderBrush="#FF707070" Cursor="Hand" RenderTransformOrigin="0,1" Margin="0,163,0,0" HorizontalContentAlignment="Center" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="button_Copy2" Content="OTRO 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Height="53" Background="#FF0F07AA" BorderBrush="#FF707070" Cursor="Hand" RenderTransformOrigin="0,1" Margin="0,216,0,0" HorizontalContentAlignment="Center" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="button_Copy3" Content="OTRO 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Height="53" Background="#FF0F07AA" BorderBrush="#FF707070" Cursor="Hand" RenderTransformOrigin="0,1" Margin="0,269,0,0" HorizontalContentAlignment="Center" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="button_Copy4" Content="OTRO 3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Height="53" Background="#FF0F07AA" BorderBrush="#FF707070" Cursor="Hand" RenderTransformOrigin="0,1" Margin="0,322,0,0" HorizontalContentAlignment="Center" Foreground="White" FontWeight="Bold"/>
+        <Label x:Name="label" Content="C F E" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="104" Foreground="White" FontWeight="Bold" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label x:Name="label1" Content="Zona :" Grid.Column="1" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="Agencia :" Grid.Column="1" HorizontalAlignment="Left" Margin="127,15,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Copy1" TextWrapping="Wrap" Text="4567" Margin="187,15,286,373" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1"/>
+        <TextBox x:Name="textBox_Copy2" TextWrapping="Wrap" Text="4567" Margin="466,16,7,372" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1"/>
+        <Label x:Name="label1_Copy1" Content="Agencia :" Grid.Column="1" HorizontalAlignment="Left" Margin="127,15,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Poblacion:" Grid.Column="1" HorizontalAlignment="Left" Margin="22,84,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="89,87,0,0" TextWrapping="Wrap" Text="Tapachula" VerticalAlignment="Top" Width="111" TextChanged="textBox_TextChanged"/>
+        <Label x:Name="label3" Content="R.P.U." Grid.Column="1" HorizontalAlignment="Left" Margin="240,84,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="285,87,0,0" TextWrapping="Wrap" Text="3345678" VerticalAlignment="Top" Width="111"/>
+        <Label x:Name="label4" Content="Nombre :" Grid.Column="1" HorizontalAlignment="Left" Margin="12,140,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="80,140,0,0" TextWrapping="Wrap" Text="aldrin enrique vazquez flores" VerticalAlignment="Top" Width="215"/>
+        <Label x:Name="label5" Content="Direccion :" Grid.Column="1" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox3" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="80,190,0,0" TextWrapping="Wrap" Text="Av. suncion Mz. 44 Lte" VerticalAlignment="Top" Width="215"/>
+        <TextBox x:Name="textBox4" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="410,143,0,0" TextWrapping="Wrap" Text="$15" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="label6" Content="Tarifa :" Grid.Column="1" HorizontalAlignment="Left" Margin="352,140,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label7" Content="Hilos" Grid.Column="1" HorizontalAlignment="Left" Margin="352,190,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox5" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="410,190,0,0" TextWrapping="Wrap" Text="4 " VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="label8" Content="PRUEBA POR:" Grid.Column="1" HorizontalAlignment="Left" Margin="187,242,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        <CheckBox x:Name="checkBox" Content="Nuevo servicio" Grid.Column="1" HorizontalAlignment="Left" Margin="49,310,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox1" Content="Programa" Grid.Column="1" HorizontalAlignment="Left" Margin="49,360,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox2" Content="Anomalia" Grid.Column="1" HorizontalAlignment="Left" Margin="224,310,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox3" Content="Modificacion" Grid.Column="1" HorizontalAlignment="Left" Margin="224,360,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox4" Content="Queja" Grid.Column="1" HorizontalAlignment="Left" Margin="369,310,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox5" Content="Otros" Grid.Column="1" HorizontalAlignment="Left" Margin="369,360,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
