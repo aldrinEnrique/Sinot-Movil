@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinotMobile", "SinotMobile\SinotMobile.csproj", "{51D1EBCF-2387-4761-909A-4FAB387932A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51D1EBCF-2387-4761-909A-4FAB387932A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D1EBCF-2387-4761-909A-4FAB387932A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D1EBCF-2387-4761-909A-4FAB387932A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D1EBCF-2387-4761-909A-4FAB387932A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D9C1B7C-CB54-4CA3-9F61-A969B785E13B}
+	EndGlobalSection
+EndGlobal
